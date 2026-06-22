@@ -1,60 +1,73 @@
 {
   "version": "1.0.0",
-  "updated": "2025-06-22",
+  "updated": "2026-06-22",
   "registry": {
     "opencode": {
       "id": "opencode",
       "alias": "oc",
       "name": "OpenCode Free",
-      "category": "free",
+      "type": "public",
+      "format": "openai",
       "icon": "terminal",
       "color": "#E87040",
       "textIcon": "OC",
+      "serviceKinds": [
+        "llm"
+      ],
       "noAuth": true,
+      "baseUrl": "https://opencode.ai",
       "passthroughModels": true,
-      "serviceKinds": ["llm"],
       "modelsFetcher": {
         "url": "https://opencode.ai/zen/v1/models",
         "type": "opencode-free"
       },
-      "models": [
-        { "id": "deepseek-v4-flash-free", "name": "DeepSeek V4 Flash Free" }
-      ]
+      "models": []
     },
     "mimo-free": {
       "id": "mimo-free",
       "alias": "mmf",
       "name": "MiMo Code Free",
-      "category": "free",
+      "type": "public",
+      "format": "openai",
       "icon": "/providers/xiaomi-mimo.png",
       "color": "#FF6900",
       "textIcon": "MF",
+      "serviceKinds": [
+        "llm"
+      ],
       "noAuth": true,
+      "baseUrl": "https://api.mimo-free.com/v1/chat/completions",
       "passthroughModels": true,
-      "serviceKinds": ["llm"],
       "modelsFetcher": {
         "url": "https://models.dev/api.json",
         "type": "mimo-free"
       },
       "models": [
-        { "id": "mimo-auto", "name": "MiMo Auto" }
+        {
+          "id": "mimo-auto",
+          "name": "MiMo Auto"
+        }
       ]
     },
     "pollinations": {
       "id": "pollinations",
       "alias": "pollinations",
       "name": "Pollinations",
-      "category": "free",
+      "type": "public",
+      "format": "openai",
       "icon": "/provider-icons/pollinations.png",
       "color": "#22C55E",
       "textIcon": "PO",
-      "noAuth": true,
       "website": "https://pollinations.ai",
-      "serviceKinds": ["llm"],
+      "serviceKinds": [
+        "llm"
+      ],
+      "noAuth": true,
+      "baseUrl": "https://text.pollinations.ai/openai",
       "notice": {
         "text": "Anonymous OpenAI-compatible text endpoint."
       },
-      "models": []
+      "passthroughModels": true
     }
   }
 }
