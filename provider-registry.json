@@ -4,8 +4,8 @@
   "registry": {
     "opencode": {
       "id": "opencode",
-      "alias": "oc",
-      "name": "OpenCode Free",
+      "alias": "ocz",
+      "name": "OpenCode Zen",
       "type": "public",
       "format": "openai",
       "icon": "terminal",
@@ -20,8 +20,7 @@
       "modelsFetcher": {
         "url": "https://opencode.ai/zen/v1/models",
         "type": "opencode-free"
-      },
-      "models": []
+      }
     },
     "mimo-free": {
       "id": "mimo-free",

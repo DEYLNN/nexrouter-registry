@@ -1,8 +1,8 @@
 {
   "opencode": {
     "id": "opencode",
-    "alias": "oc",
-    "name": "OpenCode Free",
+    "alias": "ocz",
+    "name": "OpenCode Zen",
     "type": "public",
     "format": "openai",
     "icon": "terminal",
