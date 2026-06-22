@@ -50,5 +50,10 @@
       "name": "MiMo Auto"
     }
   ],
-  "pollinations": []
+  "pai": [
+    {
+      "id": "openai-fast",
+      "name": "GPT-OSS 20B"
+    }
+  ]
 }

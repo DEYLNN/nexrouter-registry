@@ -41,7 +41,7 @@
   },
   "pollinations": {
     "id": "pollinations",
-    "alias": "pollinations",
+    "alias": "pai",
     "name": "Pollinations",
     "type": "public",
     "format": "openai",

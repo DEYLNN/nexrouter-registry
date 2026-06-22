@@ -51,7 +51,7 @@
     },
     "pollinations": {
       "id": "pollinations",
-      "alias": "pollinations",
+      "alias": "pai",
       "name": "Pollinations",
       "type": "public",
       "format": "openai",
@@ -68,7 +68,12 @@
         "text": "Anonymous OpenAI-compatible text endpoint."
       },
       "passthroughModels": true,
-      "models": []
+      "models": [
+        {
+          "id": "openai-fast",
+          "name": "GPT-OSS 20B"
+        }
+      ]
     }
   }
 }
