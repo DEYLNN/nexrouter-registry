@@ -1,0 +1,13 @@
+{
+  "name": "@nexrouter/registry",
+  "version": "1.0.0",
+  "description": "NexRouter provider registry — static JSON definitions for providers & models",
+  "main": "provider-registry.json",
+  "files": ["provider-registry.json"],
+  "keywords": ["nexrouter", "provider", "registry", "ai", "llm"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nexrouter/registry"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "opencode": {
+    "id": "opencode",
+    "alias": "oc",
+    "name": "OpenCode Free",
+    "type": "public",
+    "format": "openai",
+    "icon": "terminal",
+    "color": "#E87040",
+    "textIcon": "OC",
+    "serviceKinds": [
+      "llm"
+    ],
+    "noAuth": true,
+    "baseUrl": "https://opencode.ai",
+    "passthroughModels": true,
+    "modelsFetcher": {
+      "url": "https://opencode.ai/zen/v1/models",
+      "type": "opencode-free"
+    }
+  },
+  "mimo-free": {
+    "id": "mimo-free",
+    "alias": "mmf",
+    "name": "MiMo Code Free",
+    "type": "public",
+    "format": "openai",
+    "icon": "/providers/xiaomi-mimo.png",
+    "color": "#FF6900",
+    "textIcon": "MF",
+    "serviceKinds": [
+      "llm"
+    ],
+    "noAuth": true,
+    "baseUrl": "https://api.mimo-free.com/v1/chat/completions",
+    "passthroughModels": true,
+    "modelsFetcher": {
+      "url": "https://models.dev/api.json",
+      "type": "mimo-free"
+    },
+    "models": [
+      {
+        "id": "mimo-auto",
+        "name": "MiMo Auto"
+      }
+    ]
+  },
+  "pollinations": {
+    "id": "pollinations",
+    "alias": "pollinations",
+    "name": "Pollinations",
+    "type": "public",
+    "format": "openai",
+    "icon": "/provider-icons/pollinations.png",
+    "color": "#22C55E",
+    "textIcon": "PO",
+    "website": "https://pollinations.ai",
+    "serviceKinds": [
+      "llm"
+    ],
+    "noAuth": true,
+    "baseUrl": "https://text.pollinations.ai/openai",
+    "notice": {
+      "text": "Anonymous OpenAI-compatible text endpoint."
+    },
+    "passthroughModels": true
+  }
+}
