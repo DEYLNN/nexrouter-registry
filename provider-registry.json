@@ -42,7 +42,12 @@
         "url": "https://models.dev/api.json",
         "type": "mimo-free"
       },
-      "models": []
+      "models": [
+        {
+          "id": "mimo-auto",
+          "name": "MiMo Auto"
+        }
+      ]
     },
     "pollinations": {
       "id": "pollinations",

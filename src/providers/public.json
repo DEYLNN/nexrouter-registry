@@ -37,13 +37,7 @@
     "modelsFetcher": {
       "url": "https://models.dev/api.json",
       "type": "mimo-free"
-    },
-    "models": [
-      {
-        "id": "mimo-auto",
-        "name": "MiMo Auto"
-      }
-    ]
+    }
   },
   "pollinations": {
     "id": "pollinations",

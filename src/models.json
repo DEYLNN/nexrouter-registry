@@ -44,6 +44,11 @@
   ],
 
   "ocz": [],
-  "mc": [],
+  "mc": [
+    {
+      "id": "mimo-auto",
+      "name": "MiMo Auto"
+    }
+  ],
   "pollinations": []
 }
