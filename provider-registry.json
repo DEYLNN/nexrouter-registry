@@ -20,7 +20,8 @@
       "modelsFetcher": {
         "url": "https://opencode.ai/zen/v1/models",
         "type": "opencode-free"
-      }
+      },
+      "models": []
     },
     "mimo-code": {
       "id": "mimo-code",
@@ -41,12 +42,7 @@
         "url": "https://models.dev/api.json",
         "type": "mimo-free"
       },
-      "models": [
-        {
-          "id": "mimo-auto",
-          "name": "MiMo Auto"
-        }
-      ]
+      "models": []
     },
     "pollinations": {
       "id": "pollinations",
@@ -66,7 +62,8 @@
       "notice": {
         "text": "Anonymous OpenAI-compatible text endpoint."
       },
-      "passthroughModels": true
+      "passthroughModels": true,
+      "models": []
     }
   }
 }
