@@ -19,8 +19,8 @@
       "type": "opencode-free"
     }
   },
-  "mimo-free": {
-    "id": "mimo-free",
+  "mimo-code": {
+    "id": "mimo-code",
     "alias": "mc",
     "name": "MiMo Code",
     "type": "public",
