@@ -21,8 +21,8 @@
   },
   "mimo-free": {
     "id": "mimo-free",
-    "alias": "mmf",
-    "name": "MiMo Code Free",
+    "alias": "mc",
+    "name": "MiMo Code",
     "type": "public",
     "format": "openai",
     "icon": "/providers/xiaomi-mimo.png",
