@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "updated": "2026-06-22",
-  "registry": {
+  "providers": {
     "opencode": {
       "id": "opencode",
       "alias": "ocz",

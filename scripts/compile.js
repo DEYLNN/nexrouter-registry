@@ -66,7 +66,7 @@ for (const [id, data] of Object.entries(rawProviders)) {
 const output = {
   version: "1.0.0",
   updated: new Date().toISOString().split("T")[0],
-  registry
+  providers: registry
 };
 
 const outputPath = join(__dirname, "../provider-registry.json");
