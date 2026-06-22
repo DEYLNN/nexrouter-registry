@@ -21,7 +21,24 @@
         "url": "https://opencode.ai/zen/v1/models",
         "type": "opencode-free"
       },
-      "models": []
+      "models": [
+        {
+          "id": "north-mini-code-free",
+          "name": "North Mini Code"
+        },
+        {
+          "id": "deepseek-v4-flash-free",
+          "name": "DeepSeek V4 Flash"
+        },
+        {
+          "id": "nemotron-3-ultra-free",
+          "name": "Nemotron 3 Ultra"
+        },
+        {
+          "id": "mimo-v2.5-free",
+          "name": "MiMo V2.5"
+        }
+      ]
     },
     "mimo-code": {
       "id": "mimo-code",

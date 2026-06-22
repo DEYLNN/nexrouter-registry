@@ -43,7 +43,24 @@
     { "id": "claude-haiku-4-5-20251001", "name": "Claude 4.5 Haiku" }
   ],
 
-  "ocz": [],
+  "ocz": [
+    {
+      "id": "north-mini-code-free",
+      "name": "North Mini Code"
+    },
+    {
+      "id": "deepseek-v4-flash-free",
+      "name": "DeepSeek V4 Flash"
+    },
+    {
+      "id": "nemotron-3-ultra-free",
+      "name": "Nemotron 3 Ultra"
+    },
+    {
+      "id": "mimo-v2.5-free",
+      "name": "MiMo V2.5"
+    }
+  ],
   "mc": [
     {
       "id": "mimo-auto",
